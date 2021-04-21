@@ -9,3 +9,6 @@ Courses from LACIT Data Science
 -------ADDED-------
 
 Homework-1 
+Practic 13.04
+Practic 14.04
+Practic 15.04
