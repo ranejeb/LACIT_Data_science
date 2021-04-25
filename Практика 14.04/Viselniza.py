@@ -3,7 +3,7 @@ import os
 import random
 import sys
 
-startspisok=[str(i) for i in input('Новое слово  черезпробел ').split()]
+startspisok=[str(i) for i in input('Новое слово  через пробел ').split()]
 slowo=random.choice(startspisok)
 search=list(slowo)
 search=[x for x in search]
