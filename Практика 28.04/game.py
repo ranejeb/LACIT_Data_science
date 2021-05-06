@@ -1,3 +1,4 @@
+4
 
 import random
 
@@ -12,11 +13,12 @@ def gamerandom(number):
     return answer
 
 def vvod(number):
-    while gamerandom(number)==False:
+    if gamerandom(number)==False:
         print(" Попробуйте еще раз ")
         n=int(input(" Введите число "))
         gamerandom(n)
-    print("Победа")
+    else:
+        print("Победа")
     return 
 
     """
