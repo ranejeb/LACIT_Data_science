@@ -1,34 +1,12 @@
-4
-
 import random
 
-number_true=random.randint(0,10)
 
-def gamerandom(number):
-    #number_true=random.randint(0,10)
-    print(number_true)
+print(dir(random))
 
-    answer = (True if number==number_true else False )
-    #print("Победа" if answer==True else "Попробуйте еще раз")
-    return answer
+randnum=random.randrange(1,101,1)
+searchnum=int(input('Введите чило (1-100):'))
 
-def vvod(number):
-    if gamerandom(number)==False:
-        print(" Попробуйте еще раз ")
-        n=int(input(" Введите число "))
-        gamerandom(n)
-    else:
-        print("Победа")
-    return 
-
-    """
-    if gamerandom(number) == False:
-        print(" Попробуйте еще раз ")
-        n=int(input(" Введите число "))
-    else:
-        print(" Победа ")
-"""
-
- 
-print(vvod(3))
-
+if randnum==searchnum:
+    print('Вы выйграли')
+else:
+    print('Попробуйте еще раз')
